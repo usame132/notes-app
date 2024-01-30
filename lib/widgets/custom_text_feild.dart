@@ -16,7 +16,9 @@ final void Function(String?)? onsaved;
           {
             return "field is required";
           }
-        else return null;
+        else {
+          return null;
+        }
       },
       maxLines: maxLines,
       cursorColor: kPrimaryColor,
