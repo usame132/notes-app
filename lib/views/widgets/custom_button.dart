@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../constants.dart';
+import '../../constants.dart';
 
 class CustomBottun extends StatelessWidget {
   const CustomBottun({super.key, this.onTap});
